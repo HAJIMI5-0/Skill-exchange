@@ -46,7 +46,6 @@ public class RegisterController {
         user.setPassword(request.getPassword());
         user.setPhone(request.getPhone());
         user.setEmail(request.getEmail());
-        user.setAddress(request.getAddress());
         user.setName(request.getUsername());
 
         userService.save(user);
